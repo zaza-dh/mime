@@ -1,4 +1,4 @@
-from numpy.lib.format import magic
+import magic
 
 def mime(file):
     mime = magic.Magic(mime=True)
@@ -8,5 +8,4 @@ def mime(file):
 
 if __name__ == '__main__':
 
-    mime("/Users/mac/Desktop/1.php")
-
+    mime("1.php.jpeg")
